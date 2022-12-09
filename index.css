@@ -1,0 +1,83 @@
+@import "base.css";
+
+
+
+.contentBox {
+  
+  margin: 5%;
+  width: 90vw;
+  height: 90vw;
+  background-color: rgba(50, 50, 60, 0.3);
+  border-radius: 1%;
+  animation: boxSize 2s;
+  transition-duration: 1.5s;
+  position:absolute;
+}
+
+.contentBox:hover {
+  box-shadow: 2pt 2pt 4pt 3pt rgba(200, 200, 200, 0.4);
+}
+
+.backgroundVideo {
+  opacity: 25%;
+  width: 400vw;
+  position: relative;
+  right: 50vw;
+}
+
+.videoDiv {
+  width: 100vw;
+  height: 85vh;
+  position: absolute;
+  overflow: hidden;
+}
+
+@keyframes boxSize {
+  0% {
+    width: 0vw;
+    height: 0vh;
+    top: 140px;
+    left: 140px;
+    border-radius: 50%;
+    background-color: transparent;
+  }
+  100% {
+    width: 90vw;
+    height: 90vw;
+    top: 0px;
+    left: 0px;
+    border-radius: 0%;
+    background-color: rgba(50, 50, 60, 0.3);
+  }
+}
+
+.paraBox {
+  opacity: 70%;
+  padding-top: 50px;
+  position:relative;
+  color: seashell;
+  text-align: center;
+  font-size: 88%;
+  text-shadow: 1pt 1pt grey;
+  animation: contentPara 12s;
+  transition-duration: 1.5s;
+}
+
+.paraBox:hover {
+  font-size: 90%;
+  opacity: 80%;
+}
+
+@keyframes contentPara {
+  0% {
+    opacity: 0%;
+  }
+  10% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+
