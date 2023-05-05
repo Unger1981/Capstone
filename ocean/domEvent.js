@@ -1,6 +1,6 @@
 import {myChart} from "./chartJS.js";
-import { controlYears,valueArray,labelArray,arrayLevel,arrayYear,predictionYear,predictionArray } from "../ocean.js";
-
+import { valueArray,labelArray,arrayLevel,arrayYear,predictionYear,predictionArray } from "../ocean.js";
+import { controlYears } from "./controlYears.js";
 
 // Eventlistener for local stations trigger related datavisualisation in Chart.js Canvas
 
