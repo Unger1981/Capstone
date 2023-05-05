@@ -10,6 +10,8 @@ import * as mapbox from "./ocean/mapbox.js";
 import * as fetchElemets from "./ocean/fetchElements.js";
 // NOAA Access Token
 import * as token from "./ocean/noaaToken.js";
+
+import * as controlYears from "./ocean/controlYears.js";
 // Chart.js Api and Configuration
 import * as chartJS from "./ocean/chartJS.js";
 // Functions for NOAA Api Fetch
@@ -145,13 +147,7 @@ let labelArray = [
   "Spain, Teneriffe",
 ];
 
-let controlYears = [
-  1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987,
-  1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000,
-  2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013,
-  2014, 2015, 2016, 2017, 2018, 2019, 2020,
-]; //   if element controlyears found in array create element in new array else create element controlyear as element in new array with the data of the element controlyear before
-//  Chart.JS
+
 
 let historicData = [
   { year: 1900, level: 0 },
@@ -195,4 +191,4 @@ let predictionArray = [
 
 
 
-export { controlYears,valueArray,labelArray,arrayLevel,arrayYear,predictionYear,predictionArray };
+export { valueArray,labelArray,arrayLevel,arrayYear,predictionYear,predictionArray };

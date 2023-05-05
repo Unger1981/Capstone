@@ -1,4 +1,4 @@
-import { controlYears } from "../ocean.js";
+import { controlYears } from "../ocean/controlYears.js";
 // Begin Chart.js deafult setup
 var ctx = document.getElementById("myChart");
 var myChart = new Chart(ctx, {
