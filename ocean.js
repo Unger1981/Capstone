@@ -17,7 +17,7 @@ import * as chartJS from "./ocean/chartJS.js";
 // Functions for NOAA Api Fetch
 import {mainFetch,urlFetch} from "./ocean/functions.js";
 
-mainFetch();
+//mainFetch();
 
 //   DATA CONVERSION FOR CHART.JS
 
